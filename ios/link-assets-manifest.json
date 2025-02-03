@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Bold Italic.ttf",
+      "sha1": "3d25ebadc21409ba489f4661b25a6196258c663d"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Bold.ttf",
+      "sha1": "505dd33cae98308f8e0256bda6751f0b39b6e509"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Italic.ttf",
+      "sha1": "dc915977d5ad110e8c0ecfb5b458061ade92deee"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Propo Bold Italic.ttf",
+      "sha1": "bef8fd2ccc36c574d68bce02ae384119c68eb50f"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Propo Bold.ttf",
+      "sha1": "70d1917aaffb78e86375452e6e18f1f9273184d2"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Propo Italic.ttf",
+      "sha1": "4bb6b5d0cf37770e7f3bc3413966a64b831ff01d"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexic Nerd Font Propo.ttf",
+      "sha1": "0f957bec634d4b5ddc3d91b5418d4b0a78b732db"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicAlt Nerd Font Bold Italic.ttf",
+      "sha1": "23ae2d1a8debf9545aaba1bbe64b58064370e4c0"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicAlt Nerd Font Bold.ttf",
+      "sha1": "a79dd8cea9868e6da747dca9314779b7946f12c5"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicAlt Nerd Font Italic.ttf",
+      "sha1": "3d37bf75c1fd3ebf49107e1da006beb62661854a"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicAlt Nerd Font.ttf",
+      "sha1": "daac30fca10093d4e05de04e42edfb2f9da544fc"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicM Nerd Font Mono.ttf",
+      "sha1": "ec356f325b4c71fb62fd689651617ea5532ace7a"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicM Nerd Font Propo.ttf",
+      "sha1": "48970a0e6a8ded5b0953795fcc50597dfda8be95"
+    },
+    {
+      "path": "assets/fonts/OpenDyslexicM Nerd Font.ttf",
+      "sha1": "1f745ed423c0cffd9ac9f36cd30c11eaf0062b77"
+    }
+  ]
+}

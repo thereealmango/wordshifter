@@ -1,0 +1,12 @@
+{
+  "home": {
+  "collections": "COLLECTIONS",
+  "emptyCollections": "This is your place for collecting words and learning them. Lets create new learning set!",
+  "smile": "•ᴗ•",
+  "createSetButton": "CREATE LEARNING SET",
+  "enterFolderName": "📂 Enter folder name",
+  "save": "SAVE",
+  "close": "CLOSE",
+  "removeSelectedFolders": "REMOVE SELECTED FOLDERS"
+  }
+}
