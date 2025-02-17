@@ -1,0 +1,4 @@
+*.svg
+*.prettierignore
+*.json
+*.eslintrc.js

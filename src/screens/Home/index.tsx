@@ -103,7 +103,8 @@ const HomeScreen: React.FC = () => {
     closeSettings();
   };
 
-  const onEditFolder = (id: string) => {
+  const onEditFolder = (id: number) => {
+    console.log("onedit press--");
     dispatch(openModal({ show: true, contentName: "bottomSheet", id }));
   };
 

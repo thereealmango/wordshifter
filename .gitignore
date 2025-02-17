@@ -1,0 +1,12 @@
+# ignore ALL .log files
+*.log
+*.DS_Store
+
+# ignore ALL files in ANY directory named temp
+vendor/bundle
+
+# ignore npm modules and pods
+node_modules/
+npm-debug.log
+Pods/
+build/

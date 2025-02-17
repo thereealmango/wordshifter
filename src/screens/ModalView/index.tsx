@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import BlurredBackground from "../../components/BlurredBackground";
 import BottomSheet, { BottomSheetProps } from "../../components/BottomSheet";
 import { useModalViewAnimation } from "../../hooks/useModalViewAnimation";
-import { saveFolder } from "../../store/folder/folderSlice";
+import { saveFolder, editFolder } from "../../store/folder/folderSlice";
 
 interface ModalContentT {
   [name: string]: React.FC<BottomSheetProps>;
@@ -25,6 +25,8 @@ const ModalView: false | Element = () => {
   const contentName = useSelector(
     (state: RootState) => state.modal.contentName
   );
+  const editId = useSelector((state: RootState) => state.modal.id);
+
   const { animatedStyle, closeModal, translateY } = useModalViewAnimation(show);
   const dispatch = useDispatch();
 
@@ -35,10 +37,14 @@ const ModalView: false | Element = () => {
   const onSavePressed = (text?: string) => {
     Keyboard.dismiss();
     if (text?.length) {
-      console.log("text::");
-      console.log(text);
-      console.log("Save to store");
-      dispatch(saveFolder({ name: text }));
+      if (editId) {
+        dispatch(editFolder({ name: text, id: editId }));
+      } else {
+        console.log("text::");
+        console.log(text);
+        console.log("Save to store");
+        dispatch(saveFolder({ name: text }));
+      }
     }
 
     closeModal();

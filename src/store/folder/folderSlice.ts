@@ -34,6 +34,16 @@ export const folderSlice = createSlice({
         id: state.folders.length,
       });
     },
+    editFolder: (
+      state,
+      action: PayloadAction<{ name: string; id: Number }>
+    ) => {
+      const { id, name } = action.payload;
+      const index = state.folders.findIndex((i) => i.id === id);
+      if (index !== -1) {
+        state.folders[index] = { ...state.folders[index], name };
+      }
+    },
     removeFolder: (state, action: PayloadAction<number>) => {
       console.log("dispatch!! remove_folder");
       state.folders = state.folders.filter(
@@ -50,6 +60,7 @@ export const folderSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { saveFolder, removeFolder, removeFolders } = folderSlice.actions;
+export const { saveFolder, removeFolder, removeFolders, editFolder } =
+  folderSlice.actions;
 
 export default folderSlice.reducer;
