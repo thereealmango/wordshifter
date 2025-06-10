@@ -20,8 +20,10 @@ export const modalSlice = createSlice({
       console.log("dispathch!!!");
       state.show = action.payload.show;
       state.contentName = action.payload.contentName;
-      if (action.payload.id) {
+      if (action.payload.id !== undefined) {
         state.id = action.payload.id;
+      } else {
+        state.id = undefined;
       }
     },
   },
